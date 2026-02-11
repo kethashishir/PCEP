@@ -102,8 +102,10 @@ foo =(1,2,3)
 # In this case, you are trying to find the index of the value 0 in the tuple (1, 2, 3). Since 0 is not present in the tuple,
 # the index() method raises a ValueError indicating that the value is not found in the tuple.
 
-try:
-    print(5/0)
-    break
-except (ValueError, ZeroDivisionError):
-    print("Too bad...") 
+# try:
+#     print(5/0)
+#     break
+# except:
+#     print("Sorry, can't divide by zero.")   
+# except (ValueError, ZeroDivisionError):
+#     print("Too bad...") 
